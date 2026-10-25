@@ -31,4 +31,4 @@ No automated test framework or coverage threshold is configured yet. Until one i
 
 ## Commit & Pull Request Guidelines
 
-Git history is not available in this checkout. Use short, imperative commit subjects, optionally with Conventional Commit prefixes, for example `feat: add split calculator` or `fix: preserve pace input`. Keep commits focused. Pull requests should explain the user-visible change, list validation performed, link relevant issues, and include screenshots for visual changes. Call out new dependencies, configuration changes, or follow-up work explicitly.
+Use branches instead of committing feature work directly to `main`. Branch from an up-to-date `main` with descriptive names such as `feature/first-app-run` or `fix/pace-validation`. History favors short, sentence-style subjects, for example `Install spec and spec-implements SKILLS`; keep each commit focused. Pull requests should describe the result, list checks performed, and link related issues. Include screenshots for UI changes and highlight dependencies or configuration changes. Merge only after `npm run lint` and `npm run build` pass.
